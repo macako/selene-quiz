@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/selene-quiz/static/css/main.5f361e03.chunk.css",
-    "main.js": "/selene-quiz/static/js/main.67200e61.chunk.js",
-    "main.js.map": "/selene-quiz/static/js/main.67200e61.chunk.js.map",
+    "main.css": "/selene-quiz/static/css/main.b8c8cbef.chunk.css",
+    "main.js": "/selene-quiz/static/js/main.b49dd62d.chunk.js",
+    "main.js.map": "/selene-quiz/static/js/main.b49dd62d.chunk.js.map",
     "runtime-main.js": "/selene-quiz/static/js/runtime-main.7b3101bb.js",
     "runtime-main.js.map": "/selene-quiz/static/js/runtime-main.7b3101bb.js.map",
-    "static/js/2.40919ce4.chunk.js": "/selene-quiz/static/js/2.40919ce4.chunk.js",
-    "static/js/2.40919ce4.chunk.js.map": "/selene-quiz/static/js/2.40919ce4.chunk.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/selene-quiz/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.0e6fa927.chunk.js": "/selene-quiz/static/js/2.0e6fa927.chunk.js",
+    "static/js/2.0e6fa927.chunk.js.map": "/selene-quiz/static/js/2.0e6fa927.chunk.js.map",
     "index.html": "/selene-quiz/index.html",
-    "precache-manifest.dd36c426c53e6efaaf279b47585e47e8.js": "/selene-quiz/precache-manifest.dd36c426c53e6efaaf279b47585e47e8.js",
+    "precache-manifest.63f0e1a46a140a3e98a262288c09f8e2.js": "/selene-quiz/precache-manifest.63f0e1a46a140a3e98a262288c09f8e2.js",
     "service-worker.js": "/selene-quiz/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/selene-quiz/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.40919ce4.chunk.js.LICENSE.txt": "/selene-quiz/static/js/2.40919ce4.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/selene-quiz/static/media/logo.5d5d9eef.svg"
+    "static/css/2.af3c1da9.chunk.css.map": "/selene-quiz/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.b8c8cbef.chunk.css.map": "/selene-quiz/static/css/main.b8c8cbef.chunk.css.map",
+    "static/js/2.0e6fa927.chunk.js.LICENSE.txt": "/selene-quiz/static/js/2.0e6fa927.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7b3101bb.js",
-    "static/js/2.40919ce4.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.67200e61.chunk.js"
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.0e6fa927.chunk.js",
+    "static/css/main.b8c8cbef.chunk.css",
+    "static/js/main.b49dd62d.chunk.js"
   ]
 }
