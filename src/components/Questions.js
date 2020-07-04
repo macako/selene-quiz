@@ -16,11 +16,11 @@ class Questions extends Component {
   onAnswer(question, option) {
     let quiz = JSON.parse(JSON.stringify(this.props.quiz));
     let q = quiz.questions.find(x => x.id === question.id);
-    if (q.questionTypeId === 1) {
-      q.options.forEach(x => {
-        x.selected = false;
-      });
-    }
+
+    q.options.forEach(x => {
+      x.selected = false;
+    });
+
     q.options.find(x => x.id === option.id).selected = true;
     this.props.onAnswer(quiz);
   }
@@ -48,7 +48,7 @@ class Questions extends Component {
             </h3>
             <div className='row text-left options'>
               {q.options.map(option => (
-                <div key={option.id} className='col-6'>
+                <div key={option.id} className='col-sm-6 col-12'>
                   <div className='option'>
                     <label className='font-weight-normal' htmlFor={option.id}>
                       <input

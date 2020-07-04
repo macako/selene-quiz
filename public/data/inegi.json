@@ -1,106 +1,94 @@
 {
-  "id": 10,
+  "id": 1,
   "name": "INEGI Quiz",
   "description": "Asp.Net Quiz (contains webform, mvc, web API, etc.)",
   "questions": [
     {
-      "id": 1010,
-      "name": "ASP.NET webform separates the HTML output from program logic using a feature named as",
-      "questionTypeId": 1,
+      "id": 1,
+      "name": "¿Que tipo de backup se hace para solo guardar los bits que cambiaron desde el ultimo backup?",
+      "isActive": true,
       "options": [
         {
-          "id": 1055,
-          "questionId": 1010,
-          "name": "Exception",
-          "isAnswer": false
-        },
-        {
-          "id": 1056,
-          "questionId": 1010,
-          "name": "Code-behind",
+          "id": 1,
+          "name": "No incremental",
           "isAnswer": true
         },
         {
-          "id": 1057,
-          "questionId": 1010,
-          "name": "Code-front",
+          "id": 2,
+          "name": "Incremental",
           "isAnswer": false
         },
         {
-          "id": 1058,
-          "questionId": 1010,
+          "id": 3,
+          "name": "Cross Page Posting",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
           "name": "None of the above",
           "isAnswer": false
         }
-      ],
-      "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
-        "isActive": true
-      }
+      ]
     },
     {
       "id": 1011,
-      "name": "The feature in ASP.NET 2.0 that is used to fire a normal postback to a different page in the application is called",
-      "questionTypeId": 1,
+      "name": "¿Que es un switch?",
+
+      "isActive": true,
       "options": [
         {
           "id": 1055,
-          "questionId": 1010,
-          "name": "Theme",
+
+          "name": "Un dispositivo electronico",
           "isAnswer": false
         },
         {
           "id": 1057,
-          "questionId": 1010,
-          "name": "Code-front",
-          "isAnswer": false
-        },
-        {
-          "id": 1056,
-          "questionId": 1010,
-          "name": "Cross Page Posting",
+
+          "name": "Un dispositivo  para conectar varios nodos de red a nivel de enlace de datos",
           "isAnswer": true
         },
         {
+          "id": 1056,
+
+          "name": "Cross Page Posting",
+          "isAnswer": false
+        },
+        {
           "id": 1058,
-          "questionId": 1010,
+
           "name": "None of the above",
           "isAnswer": false
         }
-      ],
-      "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
-        "isActive": true
-      }
+      ]
     },
     {
       "id": 1012,
-      "name": "What class does the ASP.NET Web Form class inherit from by default?",
-      "questionTypeId": 1,
+      "name": "¿Cuales son las capas del modelo OSI?",
+
+      "isActive": true,
       "options": [
         {
           "id": 1055,
-          "questionId": 1010,
-          "name": "System.Web.UI.Page",
+
+          "name": "Física, enlace de datos, redes, transporte, sesión, presentación y aplicación",
           "isAnswer": true
         },
         {
           "id": 1057,
-          "questionId": 1010,
-          "name": "System.Web.UI.Form",
+
+          "name": "Aplicacion, presentacion",
           "isAnswer": false
         },
         {
           "id": 1056,
-          "questionId": 1010,
-          "name": "System.Web.GUI.Page",
+
+          "name": "System.Web.gui.Page",
           "isAnswer": false
         },
         {
           "id": 1058,
-          "questionId": 1010,
+
           "name": "System.Web.Form",
           "isAnswer": false
         }
@@ -113,30 +101,31 @@
     },
     {
       "id": 1013,
-      "name": "What does MVC stand for?",
-      "questionTypeId": 1,
+      "name": "¿Que es un DNS?",
+
+      "isActive": true,
       "options": [
         {
           "id": 1055,
-          "questionId": 1010,
-          "name": "Model View Controller",
+
+          "name": "Es el sistema de nombre del dominio nomenclaturas jerárquico",
           "isAnswer": true
         },
         {
           "id": 1057,
-          "questionId": 1010,
-          "name": "Maximum Virtual Control",
+
+          "name": "Es un sistema jerárquico",
           "isAnswer": false
         },
         {
           "id": 1056,
-          "questionId": 1010,
+
           "name": "Microsoft Visual Core",
           "isAnswer": false
         },
         {
           "id": 1058,
-          "questionId": 1010,
+
           "name": "None of the above",
           "isAnswer": false
         }
@@ -149,219 +138,212 @@
     },
     {
       "id": 1014,
-      "name": "Which of the following does NOT require type casting?",
-      "questionTypeId": 1,
+      "name": "¿Para que sirve un DNS?",
+
+      "isActive": true,
       "options": [
         {
           "id": 1055,
-          "questionId": 1010,
-          "name": "Session",
-          "isAnswer": false
+
+          "name": "Ayuda en convertir nombres en direcciones IP",
+          "isAnswer": true
         },
         {
           "id": 1057,
-          "questionId": 1010,
+
           "name": "TempData",
           "isAnswer": false
         },
         {
           "id": 1056,
-          "questionId": 1010,
+
           "name": "ViewData",
           "isAnswer": false
         },
         {
           "id": 1058,
-          "questionId": 1010,
+
           "name": "ViewBag",
           "isAnswer": true
         }
-      ],
-      "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
-        "isActive": true
-      }
+      ]
     },
     {
       "id": 1015,
-      "name": "Which is the correct order of Page life-cycle in asp.net webform?",
-      "questionTypeId": 1,
+      "name": "¿Que es una dirección IP?",
+
+      "isActive": true,
       "options": [
         {
           "id": 1055,
-          "questionId": 1010,
-          "name": "Init, PreRender, Load",
-          "isAnswer": false
+
+          "name": "Es un numero único e irrepetible con el que cuentan todos los dispositivosEs un numero único e irrepetible con el que cuentan todos los dispositivos",
+          "isAnswer": true
         },
         {
           "id": 1057,
-          "questionId": 1010,
-          "name": "Load, PreRender, Init",
+
+          "name": "Es un numero hexadecimal",
           "isAnswer": false
         },
         {
           "id": 1056,
-          "questionId": 1010,
+
           "name": "Init, Load, PreRender",
           "isAnswer": true
         },
         {
           "id": 1058,
-          "questionId": 1010,
+
           "name": "None of the above",
           "isAnswer": false
         }
-      ],
-      "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
-        "isActive": true
-      }
+      ]
     },
     {
       "id": 1016,
-      "name": "Which of these data source controls do not implement caching?",
-      "questionTypeId": 1,
+      "name": "¿Que es una mascara de subred?",
+
+      "isActive": true,
       "options": [
         {
           "id": 1055,
-          "questionId": 1010,
-          "name": "ObjectDataSource",
-          "isAnswer": false
-        },
-        {
-          "id": 1056,
-          "questionId": 1010,
-          "name": "LinqDataSource",
+
+          "name": "Ayuda a identificar direcciones IP y esta compuesta del valor 255",
           "isAnswer": true
         },
         {
+          "id": 1056,
+
+          "name": "Identifica direcciones IP",
+          "isAnswer": false
+        },
+        {
           "id": 1057,
-          "questionId": 1010,
+
           "name": "SqlDataSource",
           "isAnswer": false
         },
         {
           "id": 1058,
-          "questionId": 1010,
+
           "name": "XmlDataSource",
           "isAnswer": false
         }
-      ],
-      "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
-        "isActive": true
-      }
+      ]
     },
     {
       "id": 1017,
-      "name": "Which tag asp:Label control by default renders to?",
-      "questionTypeId": 1,
+      "name": "¿Cuales son las clases de mascaras de subred y que ip abarcan?",
+
+      "isActive": true,
       "options": [
         {
           "id": 1055,
-          "questionId": 1010,
-          "name": "div",
+          "name": "Clase A, H y R",
           "isAnswer": false
         },
         {
           "id": 1056,
-          "questionId": 1010,
-          "name": "span",
+          "name": "Clase A, B C D y E",
           "isAnswer": true
         },
         {
           "id": 1057,
-          "questionId": 1010,
           "name": "body",
           "isAnswer": false
         },
         {
           "id": 1058,
-          "questionId": 1010,
           "name": "label",
           "isAnswer": false
         }
-      ],
-      "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
-        "isActive": true
-      }
+      ]
     },
     {
       "id": 1018,
-      "name": "Which method do you use to explicitly kill a user's session?",
-      "questionTypeId": 1,
+      "name": "¿Como se llama al proceso de unir dos interfaces para que trabajen en conjunto en windows server?",
+
+      "isActive": true,
       "options": [
         {
           "id": 1055,
-          "questionId": 1010,
-          "name": "Session.Terminate()",
+          "name": "team",
           "isAnswer": false
         },
         {
           "id": 1057,
-          "questionId": 1010,
-          "name": "Session.TimeOut()",
-          "isAnswer": false
+          "name": "NICteam",
+          "isAnswer": true
         },
         {
           "id": 1056,
-          "questionId": 1010,
           "name": "Session.Abondon()",
-          "isAnswer": true
+          "isAnswer": false
         },
         {
           "id": 1058,
-          "questionId": 1010,
+
           "name": "Session.Kill()",
           "isAnswer": false
         }
-      ],
-      "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
-        "isActive": true
-      }
+      ]
     },
     {
       "id": 1019,
-      "name": "Which of the following object is ideal for keeping data alive for a single request?",
-      "questionTypeId": 1,
+      "name": "¿Que es un servidor web que protocolos utiliza, etc?",
+      "isActive": true,
       "options": [
         {
           "id": 1055,
-          "questionId": 1010,
-          "name": "HttpContext",
+          "name": "Es un programa que gestiona conexiones bidireccionales y utiliza los protocolos HTTP y FTP",
           "isAnswer": true
         },
         {
           "id": 1056,
-          "questionId": 1010,
-          "name": "Session",
+          "name": "Es un programa que organiza conexiones remotas",
           "isAnswer": false
         },
         {
           "id": 1057,
-          "questionId": 1010,
           "name": "Cookies",
           "isAnswer": false
         },
         {
           "id": 1058,
-          "questionId": 1010,
           "name": "SqlServer",
           "isAnswer": false
         }
-      ],
-      "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
-        "isActive": true
-      }
+      ]
+    },
+    {
+      "id": 1020,
+      "name": "¿Cuáles son las topologías de red?",
+
+      "isActive": true,
+      "options": [
+        {
+          "id": 1055,
+
+          "name": "Arbol, Bus, Anillo, Estrella",
+          "isAnswer": true
+        },
+        {
+          "id": 1056,
+          "name": "hub",
+          "isAnswer": false
+        },
+        {
+          "id": 1057,
+          "name": "Cookies",
+          "isAnswer": false
+        },
+        {
+          "id": 1058,
+          "name": "SqlServer",
+          "isAnswer": false
+        }
+      ]
     }
   ]
 }
