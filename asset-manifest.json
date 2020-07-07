@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/selene-quiz/static/css/main.c8442ef3.chunk.css",
-    "main.js": "/selene-quiz/static/js/main.7dd1b302.chunk.js",
-    "main.js.map": "/selene-quiz/static/js/main.7dd1b302.chunk.js.map",
+    "main.css": "/selene-quiz/static/css/main.db409ffa.chunk.css",
+    "main.js": "/selene-quiz/static/js/main.1eb2ade0.chunk.js",
+    "main.js.map": "/selene-quiz/static/js/main.1eb2ade0.chunk.js.map",
     "runtime-main.js": "/selene-quiz/static/js/runtime-main.7b3101bb.js",
     "runtime-main.js.map": "/selene-quiz/static/js/runtime-main.7b3101bb.js.map",
     "static/css/2.af3c1da9.chunk.css": "/selene-quiz/static/css/2.af3c1da9.chunk.css",
     "static/js/2.8ebcc619.chunk.js": "/selene-quiz/static/js/2.8ebcc619.chunk.js",
     "static/js/2.8ebcc619.chunk.js.map": "/selene-quiz/static/js/2.8ebcc619.chunk.js.map",
     "index.html": "/selene-quiz/index.html",
-    "precache-manifest.bdc0b8d430e30462cbbbfc078b586239.js": "/selene-quiz/precache-manifest.bdc0b8d430e30462cbbbfc078b586239.js",
+    "precache-manifest.dd95607963845d117b8d0bb414fd6d3c.js": "/selene-quiz/precache-manifest.dd95607963845d117b8d0bb414fd6d3c.js",
     "service-worker.js": "/selene-quiz/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/selene-quiz/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c8442ef3.chunk.css.map": "/selene-quiz/static/css/main.c8442ef3.chunk.css.map",
+    "static/css/main.db409ffa.chunk.css.map": "/selene-quiz/static/css/main.db409ffa.chunk.css.map",
     "static/js/2.8ebcc619.chunk.js.LICENSE.txt": "/selene-quiz/static/js/2.8ebcc619.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7b3101bb.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.8ebcc619.chunk.js",
-    "static/css/main.c8442ef3.chunk.css",
-    "static/js/main.7dd1b302.chunk.js"
+    "static/css/main.db409ffa.chunk.css",
+    "static/js/main.1eb2ade0.chunk.js"
   ]
 }
