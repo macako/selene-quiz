@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "644ca2f4ed7e57133b34a43f1cd38e9e",
+    "revision": "dc42ee8146af471f5004a5f560c28c4e",
     "url": "/selene-quiz/index.html"
   },
   {
-    "revision": "7ee3d8045e22543b4bb3",
-    "url": "/selene-quiz/static/css/main.31f1a133.chunk.css"
+    "revision": "47d2f30185e4c27dbdb0",
+    "url": "/selene-quiz/static/css/main.249a8f57.chunk.css"
   },
   {
     "revision": "923611d9b8eeb92afeea",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/selene-quiz/static/js/2.b46cb68d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ee3d8045e22543b4bb3",
-    "url": "/selene-quiz/static/js/main.3e18f9e5.chunk.js"
+    "revision": "47d2f30185e4c27dbdb0",
+    "url": "/selene-quiz/static/js/main.c14108d7.chunk.js"
   },
   {
     "revision": "1cf238e13d8efa017ba6",
