@@ -20,327 +20,283 @@
         },
         {
           "id": 3,
-          "name": "Cross Page Posting",
+          "name": "Ninguno",
           "isAnswer": false
         },
         {
           "id": 4,
-          "name": "None of the above",
+          "name": "Todos los anteriores",
           "isAnswer": false
         }
       ]
     },
     {
-      "id": 1011,
+      "id": 2,
       "name": "¿Que es un switch?",
-
       "isActive": true,
       "options": [
         {
-          "id": 1055,
-
-          "name": "Un dispositivo electronico",
-          "isAnswer": false
-        },
-        {
-          "id": 1057,
-
+          "id": 1,
           "name": "Un dispositivo  para conectar varios nodos de red a nivel de enlace de datos",
           "isAnswer": true
         },
         {
-          "id": 1056,
-
-          "name": "Cross Page Posting",
+          "id": 2,
+          "name": "Un dispositivo electronico",
           "isAnswer": false
         },
         {
-          "id": 1058,
+          "id": 3,
+          "name": "Ninguno  ",
 
-          "name": "None of the above",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
           "isAnswer": false
         }
       ]
     },
     {
-      "id": 1012,
+      "id": 3,
       "name": "¿Cuales son las capas del modelo OSI?",
-
       "isActive": true,
       "options": [
         {
-          "id": 1055,
-
+          "id": 1,
           "name": "Física, enlace de datos, redes, transporte, sesión, presentación y aplicación",
           "isAnswer": true
         },
         {
-          "id": 1057,
-
+          "id": 2,
           "name": "Aplicacion, presentacion",
           "isAnswer": false
         },
         {
-          "id": 1056,
-
-          "name": "System.Web.gui.Page",
+          "id": 3,
+          "name": "Ninguno",
           "isAnswer": false
         },
         {
-          "id": 1058,
-
-          "name": "System.Web.Form",
+          "id": 4,
+          "name": "Todos los anteriores",
           "isAnswer": false
         }
-      ],
-      "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
-        "isActive": true
-      }
+      ]
     },
     {
-      "id": 1013,
+      "id": 4,
       "name": "¿Que es un DNS?",
-
       "isActive": true,
       "options": [
         {
-          "id": 1055,
-
+          "id": 1,
           "name": "Es el sistema de nombre del dominio nomenclaturas jerárquico",
           "isAnswer": true
         },
         {
-          "id": 1057,
-
+          "id": 2,
           "name": "Es un sistema jerárquico",
           "isAnswer": false
         },
         {
-          "id": 1056,
-
-          "name": "Microsoft Visual Core",
+          "id": 3,
+          "name": "Ninguno",
           "isAnswer": false
         },
         {
-          "id": 1058,
-
-          "name": "None of the above",
+          "id": 4,
+          "name": "Todos los anteriores",
           "isAnswer": false
         }
-      ],
-      "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
-        "isActive": true
-      }
+      ]
     },
     {
-      "id": 1014,
+      "id": 5,
       "name": "¿Para que sirve un DNS?",
-
       "isActive": true,
       "options": [
         {
-          "id": 1055,
-
+          "id": 1,
           "name": "Ayuda en convertir nombres en direcciones IP",
           "isAnswer": true
         },
         {
-          "id": 1057,
-
+          "id": 2,
           "name": "TempData",
           "isAnswer": false
         },
         {
-          "id": 1056,
-
-          "name": "ViewData",
+          "id": 3,
+          "name": "Ninguno",
           "isAnswer": false
         },
         {
-          "id": 1058,
-
-          "name": "ViewBag",
-          "isAnswer": true
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
         }
       ]
     },
     {
-      "id": 1015,
+      "id": 6,
       "name": "¿Que es una dirección IP?",
-
       "isActive": true,
       "options": [
         {
-          "id": 1055,
-
+          "id": 1,
           "name": "Es un numero único e irrepetible con el que cuentan todos los dispositivosEs un numero único e irrepetible con el que cuentan todos los dispositivos",
           "isAnswer": true
         },
         {
-          "id": 1057,
-
+          "id": 2,
           "name": "Es un numero hexadecimal",
           "isAnswer": false
         },
         {
-          "id": 1056,
-
-          "name": "Init, Load, PreRender",
-          "isAnswer": true
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
         },
         {
-          "id": 1058,
-
-          "name": "None of the above",
+          "id": 4,
+          "name": "Todos los anteriores",
           "isAnswer": false
         }
       ]
     },
     {
-      "id": 1016,
+      "id": 7,
       "name": "¿Que es una mascara de subred?",
-
       "isActive": true,
       "options": [
         {
-          "id": 1055,
-
+          "id": 1,
           "name": "Ayuda a identificar direcciones IP y esta compuesta del valor 255",
           "isAnswer": true
         },
         {
-          "id": 1056,
-
+          "id": 2,
           "name": "Identifica direcciones IP",
           "isAnswer": false
         },
         {
-          "id": 1057,
-
-          "name": "SqlDataSource",
+          "id": 3,
+          "name": "Ninguno",
           "isAnswer": false
         },
         {
-          "id": 1058,
-
-          "name": "XmlDataSource",
+          "id": 4,
+          "name": "Todos los anteriores",
           "isAnswer": false
         }
       ]
     },
     {
-      "id": 1017,
+      "id": 8,
       "name": "¿Cuales son las clases de mascaras de subred y que ip abarcan?",
-
       "isActive": true,
       "options": [
         {
-          "id": 1055,
+          "id": 1,
           "name": "Clase A, H y R",
           "isAnswer": false
         },
         {
-          "id": 1056,
+          "id": 2,
           "name": "Clase A, B C D y E",
           "isAnswer": true
         },
         {
-          "id": 1057,
-          "name": "body",
+          "id": 3,
+          "name": "Ninguno",
           "isAnswer": false
         },
         {
-          "id": 1058,
-          "name": "label",
+          "id": 4,
+          "name": "Todos los anteriores",
           "isAnswer": false
         }
       ]
     },
     {
-      "id": 1018,
+      "id": 9,
       "name": "¿Como se llama al proceso de unir dos interfaces para que trabajen en conjunto en windows server?",
-
       "isActive": true,
       "options": [
         {
-          "id": 1055,
+          "id": 1,
           "name": "team",
           "isAnswer": false
         },
         {
-          "id": 1057,
+          "id": 2,
           "name": "NICteam",
           "isAnswer": true
         },
         {
-          "id": 1056,
-          "name": "Session.Abondon()",
+          "id": 3,
+          "name": "Ninguno",
           "isAnswer": false
         },
         {
-          "id": 1058,
-
-          "name": "Session.Kill()",
+          "id": 4,
+          "name": "Todos los anteriores",
           "isAnswer": false
         }
       ]
     },
     {
-      "id": 1019,
+      "id": 10,
       "name": "¿Que es un servidor web que protocolos utiliza, etc?",
       "isActive": true,
       "options": [
         {
-          "id": 1055,
+          "id": 1,
           "name": "Es un programa que gestiona conexiones bidireccionales y utiliza los protocolos HTTP y FTP",
           "isAnswer": true
         },
         {
-          "id": 1056,
+          "id": 2,
           "name": "Es un programa que organiza conexiones remotas",
           "isAnswer": false
         },
         {
-          "id": 1057,
-          "name": "Cookies",
+          "id": 3,
+          "name": "Ninguno",
           "isAnswer": false
         },
         {
-          "id": 1058,
-          "name": "SqlServer",
+          "id": 4,
+          "name": "Todos los anteriores",
           "isAnswer": false
         }
       ]
     },
     {
-      "id": 1020,
+      "id": 11,
       "name": "¿Cuáles son las topologías de red?",
-
       "isActive": true,
       "options": [
         {
-          "id": 1055,
-
+          "id": 1,
           "name": "Arbol, Bus, Anillo, Estrella",
           "isAnswer": true
         },
         {
-          "id": 1056,
+          "id": 2,
           "name": "hub",
           "isAnswer": false
         },
         {
-          "id": 1057,
-          "name": "Cookies",
+          "id": 3,
+          "name": "Ninguno",
           "isAnswer": false
         },
         {
-          "id": 1058,
-          "name": "SqlServer",
+          "id": 4,
+          "name": "Todos los anteriores",
           "isAnswer": false
         }
       ]

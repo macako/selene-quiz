@@ -7,7 +7,7 @@
 }
 
 .option {
-  background-color: #cadaee;
+  background-color: #eedde8;
   cursor: pointer;
   font-size: 20px;
   margin: 4px;
@@ -19,7 +19,7 @@
   padding: 10px;
 }
 
-#quiz .options input[type='checkbox'] {
+#quiz .options input[type="checkbox"] {
   height: 22px;
   margin-right: 6px;
   width: 22px;
@@ -30,7 +30,7 @@
 }
 
 .result-question {
-  background-color: #eee;
+  background-color: #eedde8;
   margin: 4px;
   padding: 6px;
 }
@@ -40,7 +40,7 @@
   text-align: left;
 }
 
-.create-quiz input[type='text'] {
+.create-quiz input[type="text"] {
   border: 1px solid #ddd;
   width: 95%;
 }
@@ -58,7 +58,7 @@
   margin-left: 20px;
 }
 
-.create-quiz .options input[type='checkbox'] {
+.create-quiz .options input[type="checkbox"] {
   border: 1px solid #262626;
   display: inline-block;
   height: 20px;
@@ -68,7 +68,7 @@
   width: 20px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
   h1,
   .h1 {
     font-size: 22px;
@@ -84,8 +84,12 @@
     font-size: 18px;
   }
 
+  h4,
+  .h4 {
+    font-size: 16px;
+  }
+
   .option {
     font-size: 16px;
-    padding: 6px;
   }
 }

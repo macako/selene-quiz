@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import Quiz from './components/Quiz';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import React, { Component } from "react";
+import "./scss/custom.scss";
+import "./App.css";
+import Quiz from "./components/Quiz";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 class App extends Component {
   state = {};
 
   render() {
     return (
-      <div className='container'>
+      <div className="container">
         <Header />
         <Quiz
           quiz={this.state.quiz}
