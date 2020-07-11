@@ -1,19 +1,9 @@
 import React, { Component } from "react";
-import { ActionTypes } from "../constants/actionTypes";
 import Review from "./Review";
 import Questions from "./Questions";
 import Result from "./Result";
 import { connect } from "react-redux";
-
-const mapStateToProps = (state) => {
-  return { ...state.quiz, ...state.mode, ...state.pager };
-};
-
-const mapDispatchToProps = (dispatch) => ({
-  onSubmit: (payload) => dispatch({ type: ActionTypes.QuizSubmit, payload }),
-  onPagerUpdate: (payload) =>
-    dispatch({ type: ActionTypes.PagerUpdate, payload }),
-});
+import * as actions from "../actions";
 
 class Quiz extends Component {
   move = (e) => {
@@ -74,4 +64,8 @@ class Quiz extends Component {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Quiz);
+const mapStateToProps = (state) => {
+  return { ...state.quiz, ...state.mode, ...state.pager };
+};
+
+export default connect(mapStateToProps, actions)(Quiz);

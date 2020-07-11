@@ -1,16 +1,6 @@
 import React, { Component } from "react";
-import { ActionTypes } from "../constants/actionTypes";
 import { connect } from "react-redux";
-
-const mapStateToProps = (state) => ({
-  ...state.quiz,
-  ...state.mode,
-  ...state.pager,
-});
-
-const mapDispatchToProps = (dispatch) => ({
-  onAnswer: (payload) => dispatch({ type: ActionTypes.QuizAnswer, payload }),
-});
+import * as actions from "../actions";
 
 class Questions extends Component {
   onAnswer(question, option) {
@@ -105,4 +95,10 @@ class Questions extends Component {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Questions);
+const mapStateToProps = (state) => ({
+  ...state.quiz,
+  ...state.mode,
+  ...state.pager,
+});
+
+export default connect(mapStateToProps, actions)(Questions);

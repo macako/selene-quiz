@@ -1,17 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { ActionTypes } from "../constants/actionTypes";
 import { URL_BASE } from "../utils/Constants";
-
-const mapStateToProps = (state) => {
-  return { ...state.quiz };
-};
-
-const mapDispatchToProps = (dispatch) => ({
-  onQuizLoad: (payload) => dispatch({ type: ActionTypes.QuizLoad, payload }),
-  onPagerUpdate: (payload) =>
-    dispatch({ type: ActionTypes.PagerUpdate, payload }),
-});
+import * as actions from "../actions";
 
 class Header extends Component {
   state = {
@@ -34,7 +24,7 @@ class Header extends Component {
 
   load(quizId) {
     let url = quizId || this.props.quizId;
-    fetch(`${process.env.PUBLIC_URL}/${url}`)
+    fetch(`${URL_BASE}/${url}`)
       .then((res) => res.json())
       .then((res) => {
         let quiz = res;
@@ -84,4 +74,8 @@ class Header extends Component {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Header);
+const mapStateToProps = (state) => {
+  return { ...state.quiz };
+};
+
+export default connect(mapStateToProps, actions)(Header);

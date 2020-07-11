@@ -43,7 +43,7 @@ function Result(props) {
         </div>
       ))}
       <h4 className="alert alert-info text-center">
-        <a href={`${URL_BASE}/`} class="btn btn-link">
+        <a href={`${URL_BASE}/`} className="btn btn-link">
           You may close this window now.
         </a>
       </h4>
