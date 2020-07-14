@@ -39,8 +39,8 @@ class Questions extends Component {
             </h4>
             <div className="row text-left options">
               {q.options.map((option) => (
-                <div key={option.id} className="col-sm-6">
-                  <div className="option">
+                <div key={option.id} className="d-flex col-sm-6">
+                  <div className="option flex-fill">
                     <label className="font-weight-normal" htmlFor={option.id}>
                       <input
                         id={option.id}
@@ -57,39 +57,41 @@ class Questions extends Component {
           </div>
         ))}
         <hr />
-        <div className="text-center">
-          {this.props.quiz.config.allowBack && (
+        <div class="d-flex justify-content-center">
+          <div className="btn-group" role="group">
+            {this.props.quiz.config.allowBack && (
+              <button
+                id="first"
+                className="btn btn-default"
+                onClick={this.props.move}
+              >
+                {this.props.literals.first}
+              </button>
+            )}
+            {this.props.quiz.config.allowBack && (
+              <button
+                id="prev"
+                className="btn btn-default"
+                onClick={this.props.move}
+              >
+                {this.props.literals.prev}
+              </button>
+            )}
             <button
-              id="first"
+              id="next"
+              className="btn btn-primary"
+              onClick={this.props.move}
+            >
+              {this.props.literals.next}
+            </button>
+            <button
+              id="last"
               className="btn btn-default"
               onClick={this.props.move}
             >
-              {this.props.literals.first}
+              {this.props.literals.last}
             </button>
-          )}
-          {this.props.quiz.config.allowBack && (
-            <button
-              id="prev"
-              className="btn btn-default"
-              onClick={this.props.move}
-            >
-              {this.props.literals.prev}
-            </button>
-          )}
-          <button
-            id="next"
-            className="btn btn-primary"
-            onClick={this.props.move}
-          >
-            {this.props.literals.next}
-          </button>
-          <button
-            id="last"
-            className="btn btn-default"
-            onClick={this.props.move}
-          >
-            {this.props.literals.last}
-          </button>
+          </div>
         </div>
       </div>
     );
