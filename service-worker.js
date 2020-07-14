@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/selene-quiz/precache-manifest.df08cf250bca6cf71be4d52e4c67502c.js"
+  "/selene-quiz/precache-manifest.2fd6026c8a4d59b542c7fec878d0fd2e.js"
 );
 
 self.addEventListener('message', (event) => {
