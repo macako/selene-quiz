@@ -45,17 +45,17 @@ class Quiz extends Component {
           <div>
             <hr />
             <button id="quiz" className="btn btn-info" onClick={this.setMode}>
-              Quiz
+              {this.props.literals.quiz}
             </button>
             <button id="review" className="btn btn-info" onClick={this.setMode}>
-              Review
+              {this.props.literals.review}
             </button>
             <button
               id="submit"
               className="btn btn-primary"
               onClick={this.setMode}
             >
-              Submit Quiz
+              {this.props.literals.submit_quiz}
             </button>
           </div>
         )}
@@ -65,7 +65,12 @@ class Quiz extends Component {
 }
 
 const mapStateToProps = (state) => {
-  return { ...state.quiz, ...state.mode, ...state.pager };
+  return {
+    ...state.quiz,
+    ...state.mode,
+    ...state.pager,
+    literals: state.literals,
+  };
 };
 
 export default connect(mapStateToProps, actions)(Quiz);

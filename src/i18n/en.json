@@ -1,0 +1,20 @@
+{
+  "app_greet": "Hey Macako!",
+  "question": "Question",
+  "of": "of",
+  "first": "First",
+  "prev": "Prev",
+  "next": "Next",
+  "last": "Last",
+  "quiz": "Quiz",
+  "review": "Review",
+  "submit_quiz": "Submit Quiz",
+  "review_quiz": "Review Quiz",
+  "answered": "Answered",
+  "not_answered": "Not Answered",
+  "close_window": "You may close this window now",
+  "correct": "Correct",
+  "wrong": "Wrong",
+  "your_answer_is": "Your answer is",
+  "quiz_result": "Quiz Result"
+}

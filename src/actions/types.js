@@ -4,3 +4,5 @@ export const ActionTypes = {
   QuizSubmit: "QuizSubmit",
   PagerUpdate: "PagerUpdate",
 };
+
+export const LOAD_LITERALS = "LOAD_LITERALS";

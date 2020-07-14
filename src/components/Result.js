@@ -1,4 +1,5 @@
 import React from "react";
+import { connect } from "react-redux";
 import { URL_BASE } from "../utils/Constants";
 
 function Result(props) {
@@ -9,7 +10,9 @@ function Result(props) {
 
   return (
     <div className="result">
-      <h3 className="text-center font-weight-normal">Quiz Result</h3>
+      <h3 className="text-center font-weight-normal">
+        {props.literals.quiz_result}
+      </h3>
       {questions.map((q, index) => (
         <div
           key={q.id}
@@ -37,18 +40,23 @@ function Result(props) {
                 q.isCorrect ? "text-success" : "text-danger"
               }`}
             >
-              Your answer is {q.isCorrect ? "Correct" : "Wrong"}.
+              {props.literals.your_answer_is}{" "}
+              {q.isCorrect ? props.literals.correct : props.literals.wrong}.
             </div>
           </div>
         </div>
       ))}
       <h4 className="alert alert-info text-center">
         <a href={`${URL_BASE}/`} className="btn btn-link">
-          You may close this window now.
+          {props.literals.close_window}
         </a>
       </h4>
     </div>
   );
 }
 
-export default Result;
+const mapStateToProps = ({ literals }) => ({
+  literals,
+});
+
+export default connect(mapStateToProps)(Result);

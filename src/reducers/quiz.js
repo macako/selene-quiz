@@ -1,4 +1,4 @@
-import { ActionTypes } from "../constants/actionTypes";
+import { ActionTypes } from "../actions/types";
 
 let initialQuiz = {
   quiz: {
@@ -26,30 +26,30 @@ let initialQuiz = {
   },
 };
 
-export default (state = { ...initialQuiz }, action) => {
-  switch (action.type) {
+export default (state = { ...initialQuiz }, { type, payload }) => {
+  switch (type) {
     case ActionTypes.PagerUpdate:
       return {
         ...state,
-        pager: action.payload,
+        pager: payload,
         mode: "quiz",
       };
     case ActionTypes.QuizLoad:
       return {
         ...state,
-        quiz: action.payload,
+        quiz: payload,
       };
     case ActionTypes.QuizSubmit:
       console.log("quiz.js Submitted.");
       return {
         ...state,
-        mode: action.payload,
+        mode: payload,
       };
     case ActionTypes.QuizAnswer:
       console.log("quiz.js reducer Quiz Answer called.");
       return {
         ...state,
-        quiz: action.payload,
+        quiz: payload,
       };
     default:
       return state;

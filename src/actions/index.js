@@ -1,4 +1,4 @@
-import { ActionTypes } from "./types";
+import { ActionTypes, LOAD_LITERALS } from "./types";
 
 export const onQuizLoad = (payload) => async (dispatch) => {
   dispatch({
@@ -24,6 +24,13 @@ export const onAnswer = (payload) => async (dispatch) => {
 export const onSubmit = (payload) => async (dispatch) => {
   dispatch({
     type: ActionTypes.QuizSubmit,
+    payload,
+  });
+};
+
+export const loadLiterals = (payload) => async (dispatch) => {
+  dispatch({
+    type: LOAD_LITERALS,
     payload,
   });
 };

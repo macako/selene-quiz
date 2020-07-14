@@ -31,7 +31,8 @@ class Questions extends Component {
         {questions.map((q) => (
           <div key={q.id}>
             <div className="badge badge-info">
-              Question {this.props.pager.index + 1} of {this.props.pager.count}
+              {this.props.literals.question} {this.props.pager.index + 1}
+              {" " + this.props.literals.of} {this.props.pager.count}
             </div>
             <h4 className="font-weight-normal">
               {this.props.pager.index + 1}. <span>{q.name}</span>
@@ -63,7 +64,7 @@ class Questions extends Component {
               className="btn btn-default"
               onClick={this.props.move}
             >
-              First
+              {this.props.literals.first}
             </button>
           )}
           {this.props.quiz.config.allowBack && (
@@ -72,7 +73,7 @@ class Questions extends Component {
               className="btn btn-default"
               onClick={this.props.move}
             >
-              Prev
+              {this.props.literals.prev}
             </button>
           )}
           <button
@@ -80,14 +81,14 @@ class Questions extends Component {
             className="btn btn-primary"
             onClick={this.props.move}
           >
-            Next
+            {this.props.literals.next}
           </button>
           <button
             id="last"
             className="btn btn-default"
             onClick={this.props.move}
           >
-            Last
+            {this.props.literals.last}
           </button>
         </div>
       </div>
@@ -99,6 +100,7 @@ const mapStateToProps = (state) => ({
   ...state.quiz,
   ...state.mode,
   ...state.pager,
+  literals: state.literals,
 });
 
 export default connect(mapStateToProps, actions)(Questions);

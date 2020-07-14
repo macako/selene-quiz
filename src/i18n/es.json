@@ -1,0 +1,20 @@
+{
+  "app_greet": "Hola Macako!",
+  "question": "Pregunta",
+  "of": "de",
+  "first": "Primero",
+  "prev": "Anterior",
+  "next": "Siguiente",
+  "last": "Ultimo",
+  "quiz": "Quiz",
+  "review": "Revisar",
+  "submit_quiz": "Terminar Quiz",
+  "review_quiz": "Revisar Quiz",
+  "answered": "Contestada",
+  "not_answered": "No Contestada",
+  "close_window": "Tú deberias cerrar esta window ahora",
+  "correct": "Correcta",
+  "wrong": "Incorrecta",
+  "your_answer_is": "Tú respuesta es",
+  "quiz_result": "Resultado Quiz"
+}
