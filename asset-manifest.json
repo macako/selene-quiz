@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/selene-quiz/static/css/main.834d8c77.chunk.css",
-    "main.js": "/selene-quiz/static/js/main.b30bdc3b.chunk.js",
-    "main.js.map": "/selene-quiz/static/js/main.b30bdc3b.chunk.js.map",
+    "main.js": "/selene-quiz/static/js/main.1fcedf53.chunk.js",
+    "main.js.map": "/selene-quiz/static/js/main.1fcedf53.chunk.js.map",
     "runtime-main.js": "/selene-quiz/static/js/runtime-main.7b3101bb.js",
     "runtime-main.js.map": "/selene-quiz/static/js/runtime-main.7b3101bb.js.map",
     "static/js/2.852399bc.chunk.js": "/selene-quiz/static/js/2.852399bc.chunk.js",
     "static/js/2.852399bc.chunk.js.map": "/selene-quiz/static/js/2.852399bc.chunk.js.map",
     "index.html": "/selene-quiz/index.html",
-    "precache-manifest.2fd6026c8a4d59b542c7fec878d0fd2e.js": "/selene-quiz/precache-manifest.2fd6026c8a4d59b542c7fec878d0fd2e.js",
+    "precache-manifest.c6b0b8ee0ed56ae4a64ef754bd498280.js": "/selene-quiz/precache-manifest.c6b0b8ee0ed56ae4a64ef754bd498280.js",
     "service-worker.js": "/selene-quiz/service-worker.js",
     "static/css/main.834d8c77.chunk.css.map": "/selene-quiz/static/css/main.834d8c77.chunk.css.map",
     "static/js/2.852399bc.chunk.js.LICENSE.txt": "/selene-quiz/static/js/2.852399bc.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7b3101bb.js",
     "static/js/2.852399bc.chunk.js",
     "static/css/main.834d8c77.chunk.css",
-    "static/js/main.b30bdc3b.chunk.js"
+    "static/js/main.1fcedf53.chunk.js"
   ]
 }

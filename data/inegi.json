@@ -1,7 +1,7 @@
 {
   "id": 1,
   "name": "INEGI Quiz",
-  "description": "Asp.Net Quiz (contains webform, mvc, web API, etc.)",
+  "description": "Quiz para examen profesional INEGI.",
   "questions": [
     {
       "id": 1,
@@ -200,13 +200,13 @@
       "options": [
         {
           "id": 1,
-          "name": "Clase A, H y R",
-          "isAnswer": false
+          "name": "Clase A, B C D y E",
+          "isAnswer": true
         },
         {
           "id": 2,
-          "name": "Clase A, B C D y E",
-          "isAnswer": true
+          "name": "Clase A, H y R",
+          "isAnswer": false
         },
         {
           "id": 3,
@@ -227,13 +227,13 @@
       "options": [
         {
           "id": 1,
-          "name": "team",
-          "isAnswer": false
+          "name": "NICteam",
+          "isAnswer": true
         },
         {
           "id": 2,
-          "name": "NICteam",
-          "isAnswer": true
+          "name": "team",
+          "isAnswer": false
         },
         {
           "id": 3,
@@ -287,6 +287,411 @@
         {
           "id": 2,
           "name": "hub",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "¿Cuales son la clasificaciones de la red?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "PAN LAN WAN MAN SAN VLAN",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "LAN MAN",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "¿Que es una tarjeta de red?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "Tarjeta que conecte a la computadora con la red",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "Periferico para obtener datos",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "¿Cuales son los componentes de una tarjeta madre?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "1. Ranuras, 2. Bancos de memoria   3. Socket  4.Puertos  5.BIOS  6. Unidades de almacenamiento",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "1. Ranuras, 2. ROM, 3. RAM, 4. CPU",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "¿Cuales Tipo de archivo de una imagen en Paint?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": ".bmp",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": ".jpg",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "¿Tipo de algoritmo que utiliza el protocolo OSPF?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "Diskjtrac",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "fsajkhsafkl",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "¿Ejemplo de metodo de transmision asincronica?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "Correo",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "klsa",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "¿Como funciona half duplex?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "Si ambas estaciones pueden transmitir pero no a la ves",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "klsa",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "¿Como funciona full duplex?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "Si ambas estaciones pueden transmitir simultaneamente",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "fsajkhsafkl",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "¿Cual es son los medios de transmisión mas comunes?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "par de cobre, cable coaxial, fibra optica, ondas de radio, satélites de comunicaciones",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "klsa",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "¿Cual es la capacidad de fibra optica?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "2.5 a10gbits/s",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "klsa",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "¿Cómo se llama al ayudante de Office?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "Clipo",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "fsajkhsafkl",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "¿Que tipo de fibra óptica utilizas, si conectas dos edificios a una distancia de 400 metros?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "monomodo",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "fsajkhsafkl",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "¿Con que herramientas de Office creas presentaciones?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "PowerPoint",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "fsajkhsafkl",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "¿Principal función de un sistema operativo?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "Multiusuario",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "fsajkhsafkl",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "name": "Ninguno",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "name": "Todos los anteriores",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "¿Como se llama el archivo donde se almacena un virus que no se puede eliminar?",
+      "isActive": true,
+      "options": [
+        {
+          "id": 1,
+          "name": "cuarentena",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "name": "fsajkhsafkl",
           "isAnswer": false
         },
         {
