@@ -6,13 +6,13 @@ const langs = {
   es,
 };
 
-export default function (lang = "es-MX") {
+export default function (lang = "en-US") {
   switch (true) {
-    case /en-*/.test(lang.toLowerCase()):
-      lang = "en";
+    case /es-*/.test(lang.toLowerCase()):
+      lang = "es";
       break;
     default:
-      lang = "es";
+      lang = "en";
   }
 
   return langs[lang];
